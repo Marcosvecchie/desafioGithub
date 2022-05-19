@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: beige;
+    text-align: center;
+}
+h1{
+    background-color: rgb(248, 248, 229);
+}
+nav{
+    background-color: rgb(251, 251, 221);
+}
+.caja{
+    border: 3px solid black;
+    margin: 2rem;
+    background-image: linear-gradient(red, orange); /*top,right,left,buttom*/
+    width: 300px;
+    height: 300px;
+    transition: 2s;
+}
+.caja:hover{
+    transform: rotate(720deg);
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    color: rgb(46, 54, 54);
+    font-size: 28px;
+    margin: 5px;
+    position: relative;
+}
+li:hover{
+    color: rgb(48, 39, 28);
+    font-weight: bold;
+}
+li:hover > ul{
+    display: block;
+}
+footer{
+    text-align: center;
+}
